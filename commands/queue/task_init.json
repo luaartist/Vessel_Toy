@@ -1,0 +1,6 @@
+{
+  "id": "env_probe_init",
+  "target": "system_environment",
+  "command": "uname -a && python3 --version",
+  "timeout": 60
+}
