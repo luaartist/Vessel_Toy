@@ -43,7 +43,7 @@ def generate_report(output_file: Path):
 {data.get('stderr')[:2000] if data.get('stderr') else 'None.'}
 ```
 
-## Agent Handoff Context (GLM-3.5-Flash)
+## Agent Handoff Context
 - Artifact location: `{output_file.relative_to(BASE_DIR)}`
 - Status: Stored in persistent date-bucketed repository tree.
 """
